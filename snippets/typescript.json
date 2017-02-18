@@ -28,7 +28,7 @@
 	},
 	"console.log": {
 		"prefix": "csl",
-		"body": "console.log($1)"\
+		"body": "console.log($1)"
 	},
 	"class": {
 		"prefix": "cls",
@@ -36,11 +36,11 @@
 			"class $1 {",
 			"\t$2",
 			"}"
-		],,
+		],
 		"description": "description"
 	},
 	"import": {
-		"prefix": "imp",p
+		"prefix": "imp",
 		"body": "import $1 from '$2'"
 	},
 	"export": {
