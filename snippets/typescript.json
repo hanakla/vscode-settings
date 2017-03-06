@@ -75,5 +75,9 @@
 			"\t$4",
 			"}"
 		]
+	},
+	"debugger": {
+		"prefix": "dbg",
+		"body": "debugger"
 	}
 }

@@ -44,5 +44,10 @@
         "key": "",
         "command": "editor.action.moveLinesUpAction",
         "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+e",
+        "command": "extension.colorHelper.pick",
+        "when": "editorTextFocus"
     }
 ]
