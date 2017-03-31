@@ -4,11 +4,12 @@
     "editor.renderIndentGuides": true,
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
-    "window.zoomLevel": -1,
+    "window.zoomLevel": 0,
     "window.openFoldersInNewWindow": "on",
     "workbench.colorTheme": "Monokai Light",
     "workbench.iconTheme": "file-icons",
     "workbench.editor.enablePreview": false,
     "workbench.editor.enablePreviewFromQuickOpen": false,
-    "php.validate.executablePath": "php"
+    "php.validate.executablePath": "php",
+    "flowide.enabled": true
 }
