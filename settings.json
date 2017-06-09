@@ -11,7 +11,11 @@
     "workbench.iconTheme": "file-icons",
     "workbench.editor.enablePreview": false,
     "workbench.editor.enablePreviewFromQuickOpen": false,
+
+    // Extensions
     "php.validate.executablePath": "php",
     "eslint.enable": true,
-    "flow.pathToFlow": "flow"
+    "flow.pathToFlow": "flow",
+    "flowide.enabled": true,
+    "typescript.tsserver.log": "verbose"
 }
