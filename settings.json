@@ -5,10 +5,13 @@
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
     "window.zoomLevel": -1,
+    "window.openFilesInNewWindow": "on",
     "window.openFoldersInNewWindow": "on",
     "workbench.colorTheme": "Monokai Light",
     "workbench.iconTheme": "file-icons",
     "workbench.editor.enablePreview": false,
     "workbench.editor.enablePreviewFromQuickOpen": false,
-    "php.validate.executablePath": "php"
+    "php.validate.executablePath": "php",
+    "eslint.enable": true,
+    "flow.pathToFlow": "flow"
 }

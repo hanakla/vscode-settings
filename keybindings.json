@@ -49,5 +49,9 @@
         "key": "ctrl+e",
         "command": "extension.colorHelper.pick",
         "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+t",
+        "command": "terminalTabs.createTerminal"
     }
 ]
