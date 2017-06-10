@@ -12,5 +12,27 @@
     "workbench.editor.enablePreviewFromQuickOpen": false,
     "php.validate.executablePath": "php",
     "flowide.enabled": true,
-    "typescript.tsserver.log": "verbose"
+    "background.useDefault": false,
+    "background.style": {
+        "background-position": "100% 100%",
+        "background-repeat": "no-repeat",
+        "background-color": "rgba(255, 255, 255, .5)"
+    },
+    "typescript.tsserver.log": "verbose",
+    "editor.snippetSuggestions": "inline",
+    "extension-manager.extensions": [
+        "Tyriar.terminal-tabs",
+        "anoff.theme-monokai-light",
+        "anseki.vscode-color",
+        "austin.vscode-twitter",
+        "eg2.tslint",
+        "file-icons.file-icons",
+        "gcazaciuc.vscode-flow-ide",
+        "kofno.crystal-ide",
+        "kogai.regex-railroad-diagrams",
+        "shalldie.background",
+        "staychan.vue-color",
+        "sysoev.language-stylus",
+        "webstp.extension-manager"
+    ]
 }
