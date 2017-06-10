@@ -15,7 +15,6 @@
     // Extensions
     "php.validate.executablePath": "php",
     "eslint.enable": true,
-    "flow.pathToFlow": "flow",
     "flowide.enabled": true,
     "background.useDefault": false,
     "background.style": {
@@ -30,6 +29,7 @@
         "anoff.theme-monokai-light",
         "anseki.vscode-color",
         "austin.vscode-twitter",
+        "dbaeumer.vscode-eslint",
         "eg2.tslint",
         "file-icons.file-icons",
         "gcazaciuc.vscode-flow-ide",
