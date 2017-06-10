@@ -2,6 +2,8 @@
 {
     "editor.renderWhitespace": "boundary",
     "editor.renderIndentGuides": true,
+    "editor.minimap.enabled": false,
+    "editor.snippetSuggestions": "inline",
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
     "window.zoomLevel": -1,
@@ -23,7 +25,6 @@
         "background-color": "rgba(255, 255, 255, .5)"
     },
     "typescript.tsserver.log": "verbose",
-    "editor.snippetSuggestions": "inline",
     "extension-manager.extensions": [
         "Tyriar.terminal-tabs",
         "anoff.theme-monokai-light",
