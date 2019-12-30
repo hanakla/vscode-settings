@@ -1,38 +1,53 @@
 // 既定の設定を上書きするには、このファイル内に設定を挿入します
 {
-    "editor.renderWhitespace": "boundary",
-    "editor.renderIndentGuides": true,
-    "editor.minimap.enabled": false,
-    "editor.snippetSuggestions": "inline",
-    "files.trimTrailingWhitespace": true,
-    "files.insertFinalNewline": true,
-    "window.zoomLevel": -1,
-    "window.openFilesInNewWindow": "on",
-    "window.openFoldersInNewWindow": "on",
-    "workbench.colorTheme": "Quiet Light",
-    "workbench.iconTheme": "file-icons",
-    "workbench.editor.enablePreview": false,
-    "workbench.editor.enablePreviewFromQuickOpen": false,
+  "editor.renderWhitespace": "boundary",
+  "editor.renderIndentGuides": true,
+  "editor.minimap.enabled": false,
+  "editor.snippetSuggestions": "inline",
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "window.zoomLevel": 0,
+  "window.openFilesInNewWindow": "on",
+  "window.openFoldersInNewWindow": "on",
+  "workbench.colorTheme": "Monokai Light",
+  "workbench.iconTheme": "file-icons",
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "emmet.triggerExpansionOnTab": true,
+  "tslint.autoFixOnSave": true,
+  "eslint.autoFixOnSave": true,
+  "breadcrumbs.enabled": true,
 
-    // Extensions
-    "php.validate.executablePath": "php",
-    "eslint.enable": true,
-    "flowide.enabled": true,
-    "typescript.tsserver.log": "verbose",
-    "extension-manager.extensions": [
-        "Tyriar.terminal-tabs",
-        "anoff.theme-monokai-light",
-        "anseki.vscode-color",
-        "austin.vscode-twitter",
-        "dbaeumer.vscode-eslint",
-        "eg2.tslint",
-        "file-icons.file-icons",
-        "gcazaciuc.vscode-flow-ide",
-        "kofno.crystal-ide",
-        "kogai.regex-railroad-diagrams",
-        "shalldie.background",
-        "staychan.vue-color",
-        "sysoev.language-stylus",
-        "webstp.extension-manager"
-    ]
+  // Extensions
+  "php.validate.executablePath": "php",
+  "eslint.enable": true,
+  "flowide.enabled": true,
+  "typescript.tsserver.log": "verbose",
+  "extension-manager.extensions": [
+    "Tyriar.terminal-tabs",
+    "anoff.theme-monokai-light",
+    "anseki.vscode-color",
+    "austin.vscode-twitter",
+    "dbaeumer.vscode-eslint",
+    "eg2.tslint",
+    "file-icons.file-icons",
+    "gcazaciuc.vscode-flow-ide",
+    "kofno.crystal-ide",
+    "kogai.regex-railroad-diagrams",
+    "shalldie.background",
+    "staychan.vue-color",
+    "sysoev.language-stylus",
+    "webstp.extension-manager"
+  ],
+  "[markdown]": {
+    "files.trimTrailingWhitespace": false
+  },
+  "workbench.sideBar.location": "left",
+  "editor.formatOnSave": true,
+  "prettier.disableLanguages": [
+    "vue",
+    "markdown"
+  ],
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
 }
