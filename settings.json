@@ -6,7 +6,6 @@
   "editor.snippetSuggestions": "inline",
   "files.trimTrailingWhitespace": true,
   "files.insertFinalNewline": true,
-  "window.zoomLevel": 0,
   "window.openFilesInNewWindow": "on",
   "window.openFoldersInNewWindow": "on",
   "workbench.colorTheme": "Monokai Light",
@@ -17,12 +16,16 @@
   "tslint.autoFixOnSave": true,
   "eslint.autoFixOnSave": true,
   "breadcrumbs.enabled": true,
-
+  "workbench.colorCustomizations": {
+    // "activityBar.background": "#0096FA",
+    // "activityBar.foreground": "#fff",
+    // "activityBar.inactiveForeground": "#fff8"
+  },
   // Extensions
   "php.validate.executablePath": "php",
   "eslint.enable": true,
   "flowide.enabled": true,
-  "typescript.tsserver.log": "verbose",
+  "typescript.tsserver.log": "off",
   "extension-manager.extensions": [
     "Tyriar.terminal-tabs",
     "anoff.theme-monokai-light",
@@ -43,11 +46,52 @@
     "files.trimTrailingWhitespace": false
   },
   "workbench.sideBar.location": "left",
-  "editor.formatOnSave": true,
-  "prettier.disableLanguages": [
-    "vue",
-    "markdown"
-  ],
+  "prettier.disableLanguages": ["vue", "markdown"],
   "editor.suggestSelection": "first",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "editor.formatOnSave": true,
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": false,
+    "plaintext": false,
+    "markdown": false,
+    "typescript": true
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[glsl]": {
+    "editor.defaultFormatter": "circledev.glsl-canvas"
+  },
+  "javascript.inlayHints.parameterNames.enabled": "literals",
+  "javascript.inlayHints.parameterTypes.enabled": true,
+  "typescript.inlayHints.parameterNames.enabled": "literals",
+  "typescript.inlayHints.parameterTypes.enabled": true,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.accessibilitySupport": "on",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.inlineSuggest.enabled": true,
+  "outline.showArrays": false,
+  "outline.showBooleans": false,
+  "outline.showConstants": false,
+  "outline.showConstructors": false,
+  "outline.showEnumMembers": false,
+  "outline.showFields": false,
+  "outline.showKeys": false
 }
