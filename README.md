@@ -2,5 +2,5 @@
 
 ```bash
 cd ~/Library/Application\ Support/Code
-git clone git@github.com:ra-gg/vscode-settings.git User
+git clone git@github.com:hanakla/vscode-settings.git User
 ```
