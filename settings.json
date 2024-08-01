@@ -4,6 +4,22 @@
   "editor.renderIndentGuides": true,
   "editor.minimap.enabled": false,
   "editor.snippetSuggestions": "inline",
+  "editor.linkedEditing": true,
+  "editor.suggestSelection": "first",
+  "editor.inlineSuggest.enabled": true,
+  "editor.inlayHints.enabled": "offUnlessPressed",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+
+  "outline.showArrays": false,
+  "outline.showBooleans": false,
+  "outline.showConstants": false,
+  "outline.showConstructors": false,
+  "outline.showEnumMembers": false,
+  "outline.showFields": false,
+  "outline.showKeys": false,
+
   "files.trimTrailingWhitespace": true,
   "files.insertFinalNewline": true,
   "window.openFilesInNewWindow": "on",
@@ -14,13 +30,18 @@
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "emmet.triggerExpansionOnTab": true,
   "tslint.autoFixOnSave": true,
-  "eslint.autoFixOnSave": true,
   "breadcrumbs.enabled": true,
   "workbench.colorCustomizations": {
     // "activityBar.background": "#0096FA",
     // "activityBar.foreground": "#fff",
     // "activityBar.inactiveForeground": "#fff8"
   },
+
+  "javascript.inlayHints.parameterNames.enabled": "literals",
+  "javascript.inlayHints.parameterTypes.enabled": true,
+  "typescript.inlayHints.parameterNames.enabled": "literals",
+  "typescript.inlayHints.parameterTypes.enabled": true,
+
   // Extensions
   "php.validate.executablePath": "php",
   "eslint.enable": true,
@@ -45,9 +66,10 @@
   "[markdown]": {
     "files.trimTrailingWhitespace": false
   },
+
   "workbench.sideBar.location": "left",
   "prettier.disableLanguages": ["vue", "markdown"],
-  "editor.suggestSelection": "first",
+
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "editor.formatOnSave": true,
   "github.copilot.enable": {
@@ -57,6 +79,8 @@
     "markdown": false,
     "typescript": true
   },
+
+  // Languages
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -69,10 +93,6 @@
   "[glsl]": {
     "editor.defaultFormatter": "circledev.glsl-canvas"
   },
-  "javascript.inlayHints.parameterNames.enabled": "literals",
-  "javascript.inlayHints.parameterTypes.enabled": true,
-  "typescript.inlayHints.parameterNames.enabled": "literals",
-  "typescript.inlayHints.parameterTypes.enabled": true,
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -86,12 +106,28 @@
   "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "editor.inlineSuggest.enabled": true,
-  "outline.showArrays": false,
-  "outline.showBooleans": false,
-  "outline.showConstants": false,
-  "outline.showConstructors": false,
-  "outline.showEnumMembers": false,
-  "outline.showFields": false,
-  "outline.showKeys": false
+
+  // Signals (sounds)
+  "accessibility.signals.chatRequestSent": { "sound": "off" },
+  "accessibility.signals.chatResponsePending": { "sound": "off" },
+  "accessibility.signals.clear": { "sound": "off" },
+  "accessibility.signals.lineHasFoldedArea": { "sound": "off" },
+  "accessibility.signals.lineHasInlineSuggestion": { "sound": "off" },
+  "accessibility.signals.noInlayHints": { "sound": "off" },
+  "accessibility.signals.notebookCellCompleted": { "sound": "off" },
+  "accessibility.signals.onDebugBreak": { "sound": "off" },
+  "accessibility.signals.notebookCellFailed": { "sound": "off" },
+  "accessibility.signals.taskCompleted": { "sound": "off" },
+  "accessibility.signals.terminalQuickFix": { "sound": "off" },
+  "accessibility.signals.terminalCommandFailed": { "sound": "off" },
+  "accessibility.signals.terminalBell": { "sound": "off" },
+  "accessibility.signals.taskFailed": { "sound": "off" },
+  "accessibility.signals.lineHasWarning": { "sound": "off" },
+  "accessibility.signals.lineHasError": { "sound": "off" },
+  "accessibility.signals.lineHasBreakpoint": { "sound": "off" },
+  "accessibility.signals.diffLineModified": { "sound": "off" },
+  "accessibility.signals.diffLineInserted": { "sound": "off" },
+  "accessibility.signals.diffLineDeleted": {
+    "sound": "off"
+  }
 }
