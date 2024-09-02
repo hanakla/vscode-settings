@@ -1,7 +1,7 @@
 // 既定の設定を上書きするには、このファイル内に設定を挿入します
 {
   "editor.renderWhitespace": "boundary",
-  "editor.renderIndentGuides": true,
+  "editor.guides.indentation": true,
   "editor.minimap.enabled": false,
   "editor.snippetSuggestions": "inline",
   "editor.linkedEditing": true,
@@ -9,7 +9,7 @@
   "editor.inlineSuggest.enabled": true,
   "editor.inlayHints.enabled": "offUnlessPressed",
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": "explicit"
   },
 
   "outline.showArrays": false,
@@ -32,8 +32,8 @@
   "tslint.autoFixOnSave": true,
   "breadcrumbs.enabled": true,
   "workbench.colorCustomizations": {
-    // "activityBar.background": "#0096FA",
-    // "activityBar.foreground": "#fff",
+    // "activityBar.background": "#0096FA"
+    // "activityBar.foreground": "#fff"
     // "activityBar.inactiveForeground": "#fff8"
   },
 
@@ -108,8 +108,9 @@
   },
 
   // Signals (sounds)
-  "accessibility.signals.chatRequestSent": { "sound": "off" },
-  "accessibility.signals.chatResponsePending": { "sound": "off" },
+  "accessibility.signals.chatRequestSent": {
+    "sound": "off"
+  },
   "accessibility.signals.clear": { "sound": "off" },
   "accessibility.signals.lineHasFoldedArea": { "sound": "off" },
   "accessibility.signals.lineHasInlineSuggestion": { "sound": "off" },
@@ -129,5 +130,19 @@
   "accessibility.signals.diffLineInserted": { "sound": "off" },
   "accessibility.signals.diffLineDeleted": {
     "sound": "off"
-  }
+  },
+  "accessibility.signals.progress": {
+    "sound": "off"
+  },
+  "accessibility.signals.positionHasError": {
+    "sound": "off"
+  },
+  "accessibility.signals.positionHasWarning": {
+    "sound": "none"
+  },
+  "accessibility.verbosity.inlineChat": false,
+  "accessibility.verbosity.inlineCompletions": false,
+  "accessibility.verbosity.notification": false,
+  "accessibility.verbosity.terminal": false,
+  "accessibility.verbosity.panelChat": false
 }
